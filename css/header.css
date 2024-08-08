@@ -1,0 +1,972 @@
+header {
+    font-family: Poppins;
+    .carousel {
+        position: relative;
+
+        .carousel-inner {
+            .carousel-item {
+                position: relative;
+            
+                .carousel-txt {
+                    position: absolute;
+                    top: 90px;       
+                    color: white;
+                    width: 65%;
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    row-gap: 30px;
+                    left: 70px;
+                    z-index: 2;
+                    h1{
+                        font-size: 7.6vw;
+                        font-family: Montserrat;
+                        font-weight: 900;
+                    }
+
+                    p{
+                        font-size: 1.7vw;
+                        font-weight: 300;
+                        color: #C6C9D8;
+                    }
+
+                    button{
+                        width: fit-content;
+                        color: white;
+                        background-color: #FD4766;
+                        border-color: #FD4766;
+                        padding: 20px 48px;
+                        border-radius: 50px;
+                        font-weight: 500;
+                        letter-spacing: 1.5px;
+                        transition: all 0.4s ease;
+                        font-size: 1vw;
+
+                        &:hover{
+                            background-color: transparent;
+                            color: #FD4766;
+                        }
+                    }
+                }
+            }
+        }
+
+        nav {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+
+            .container {
+
+                .collapse {
+                    ul {
+                        li {
+                            padding: 0 7px;
+
+                            a {
+                                color: white;
+                            }
+
+                            .dropdown-menu {
+                                li {
+                                    a {
+                                        color: black;
+
+                                        &:hover {
+                                            color: #FD4766;
+                                            background-color: #fd476510;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    button {
+                        color: white;
+                        border-color: rgba(128, 128, 128, 0.493);
+                        padding: 17px 37px;
+                        border-radius: 50px;
+
+                        &:hover {
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1280px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 0px;       
+                        color: white;
+                        width: 65%;
+                        height: 90vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 30px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 20px 48px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1190px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 30px;       
+                        color: white;
+                        width: 65%;
+                        height: 70vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 30px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 20px 48px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 0px;       
+                        color: white;
+                        width: 65%;
+                        height: 80vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 30px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 20px 48px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:917px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 0px;       
+                        color: white;
+                        width: 65%;
+                        height: 35vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 30px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 15px 38px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:800px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 50px;       
+                        color: white;
+                        width: 65%;
+                        height: 50vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 30px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 10px 28px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:727px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 30px;       
+                        color: white;
+                        width: 65%;
+                        height: 40vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 30px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 10px 28px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .navbar-brand{
+                        img{
+                            width: 65px;
+                        }
+                    }
+
+                    .navbar-toggler{
+                        
+                        span{
+                            width: 25px;
+                        }
+                    }
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:606px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 30px;       
+                        color: white;
+                        width: 65%;
+                        height: 40vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 30px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 10px 28px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .navbar-brand{
+                        img{
+                            width: 65px;
+                        }
+                    }
+
+                    .navbar-toggler{
+                        
+                        span{
+                            width: 25px;
+                        }
+                    }
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:502px) {
+    header {
+        font-family: Poppins;
+        .carousel {
+            position: relative;
+    
+            .carousel-inner {
+                .carousel-item {
+                    position: relative;
+                    
+                    .carousel-txt {
+                        position: absolute;
+                        top: 30px;       
+                        color: white;
+                        width: 65%;
+                        height: 20vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        row-gap: 10px;
+                        left: 70px;
+    
+                        h1{
+                            font-size: 7.6vw;
+                            font-family: Montserrat;
+                            font-weight: 900;
+                        }
+    
+                        p{
+                            font-size: 1.7vw;
+                            font-weight: 300;
+                            color: #C6C9D8;
+                        }
+    
+                        button{
+                            width: fit-content;
+                            color: white;
+                            background-color: #FD4766;
+                            border-color: #FD4766;
+                            padding: 7px 15px;
+                            border-radius: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1.5px;
+                            transition: all 0.4s ease;
+    
+                            &:hover{
+                                background-color: transparent;
+                                color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 0;
+    
+                .container {
+    
+                    .navbar-brand{
+                        img{
+                            width: 65px;
+                        }
+                    }
+
+                    .navbar-toggler{
+                        
+                        span{
+                            width: 25px;
+                        }
+                    }
+                    .collapse {
+                        ul {
+                            li {
+                                padding: 0 7px;
+    
+                                a {
+                                    color: white;
+                                }
+    
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: black;
+    
+                                            &:hover {
+                                                color: #FD4766;
+                                                background-color: #fd476510;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        button {
+                            color: white;
+                            border-color: rgba(128, 128, 128, 0.493);
+                            padding: 17px 37px;
+                            border-radius: 50px;
+    
+                            &:hover {
+                                background-color: #FD4766;
+                                border-color: #FD4766;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
